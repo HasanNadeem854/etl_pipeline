@@ -24,5 +24,5 @@ jobs:
       # Build and push the image
       - name: Build and Push
         run: |
-          docker build -t us-central1-docker.pkg.dev/${{ secrets.GOOGLE_PROJECT }}/etl_pipeline/etl-pipeline:latest .
-          docker push us-central1-docker.pkg.dev/${{ secrets.GOOGLE_PROJECT }}/etl_pipeline/etl-pipeline:latest
+          docker build -t us-central1-docker.pkg.dev/${{ secrets.GOOGLE_PROJECT }}/etl-pipeline/etl-pipeline:latest .
+          docker push us-central1-docker.pkg.dev/${{ secrets.GOOGLE_PROJECT }}/etl-pipeline/etl-pipeline:latest
